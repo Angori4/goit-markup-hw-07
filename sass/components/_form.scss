@@ -4,7 +4,6 @@
 .form {
     display: flex;
     flex-direction: column;
-    // padding: 40px;
 }
 
 .form__title {
@@ -26,7 +25,6 @@
 .form__label {
     color: getColor('text-color');
     position: relative;
-    // display: inline-block;
     display: flex;
     flex-direction: column;
     @include label;

@@ -13,7 +13,6 @@ ul {
 }
 
 .container {
-    // display: flex;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -41,9 +40,7 @@ ul {
 
 .title {
     @include title;
-    // margin-bottom: 10px;
     color: getColor('title-color');
-    // text-transform: uppercase;
 }
 
 .text {

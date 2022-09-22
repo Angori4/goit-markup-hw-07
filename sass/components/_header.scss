@@ -7,13 +7,8 @@
 
 .header__content {
     display: flex;
-    // flex-direction: row;
     align-items: center;
 }
-
-// .container {
-//     display: flex;
-// }
 
 .logo {
     color: getColor('header-logo-color');
@@ -68,7 +63,6 @@
     padding-bottom: 32px;
 }
 
-/* стилізація іконок контакт */
 .contact__list {
     list-style: none;
     display: flex;
@@ -91,7 +85,6 @@
     }
 }
 
-/* налаштування секції навігації */
 .navigation__list {
     display: flex;
     list-style: none;
